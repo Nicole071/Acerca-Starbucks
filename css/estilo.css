@@ -1,0 +1,357 @@
+/* Patrones globales del CSS */
+
+h6, aside#menu-movil nav a { font-family: 'Permanent Marker', cursive; }
+h1, h2, h3, h4, h5 { font-family: 'Barlow', sans-serif; }
+p, a, button, form, input, select, option, textarea, em, span, strong, div { font-family: 'Roboto', sans-serif; }
+
+body { margin: 0 !important; }
+
+header, main, footer, aside, section, article, figure, nav, div { display: block; }
+
+h1, h2, h3, h4, h5, h6, p, figure { margin: 0; }
+
+
+
+/* Maquetación, Estilo y Acabados en CSS */
+
+
+/* Header */
+header {
+width: 100%; 
+height: 80px;
+margin: 0; 
+float: none; 
+position: fixed; 
+top: 0; 
+left: 0; 
+z-index: 99990; 
+background: #ffffff; 
+}
+
+
+
+/* Main */
+main { 
+width: 100%; 
+height: auto; 
+margin: 80px auto 0 auto; 
+float: none; 
+position: relative; 
+}
+
+
+/* Banner Video YouTube */
+main section#banner-video-youtube { 
+width: 100%; 
+height: auto; 
+margin: 0 auto; 
+float: none; 
+position: relative; 
+}
+main section#banner-video-youtube iframe { 
+width: 100%; 
+height: 88vh; 
+margin: 0 auto; 
+float: none; 
+position: relative; 
+}
+
+
+/* Banner Video HTML5 */
+main section#banner-video-html5 { width: 100%; 
+height: auto; 
+margin: 0 auto; 
+float: none; 
+position: relative; 
+background: #000; 
+}
+main section#banner-video-html5 video { 
+width: 100%; 
+height: 87vh; 
+margin: 0 auto; 
+float: none; 
+position: relative; 
+}
+
+
+/* Banner Video HTML5 Loop Muted */
+main section#banner-video-html5-loop-muted { 
+width: 100%; 
+height: auto; 
+margin: 0 auto; 
+float: none; 
+position: relative; 
+background: #000; 
+overflow: hidden; 
+}
+main section#banner-video-html5-loop-muted video { 
+width: 100%; 
+height: 87vh; 
+margin: 0 auto; 
+float: none; 
+position: relative; 
+transform: scale(1.35); 
+}
+
+
+/* Banner Slide Imágenes */
+main section#banner-slick {
+width: 100%; 
+height: auto; 
+margin: 0 auto; 
+float: none; 
+position: relative; 
+}
+main section#banner-slick article.slick-slider { 
+width: 100%; 
+height: 88vh; 
+margin: 0 auto; 
+float: none; 
+position: relative;
+overflow-x: hidden; 
+}
+
+main section#banner-slick article.slick-slider figure { 
+width: 100%; 
+height: 88vh; 
+margin: 0; 
+float: left; 
+position: relative; 
+}
+main section#banner-slick article.slick-slider figure#slick-01 { 
+background: url('../img/quienes\ somos.jpeg') no-repeat top center; background-size: cover; 
+}
+main section#banner-slick article.slick-slider figure#slick-02 { 
+background: url('../img/Starbucks-emblema.jpg') no-repeat top center; 
+background-size: cover; 
+}
+main section#banner-slick article.slick-slider figure#slick-03 { 
+background: url('../img/quienes.jpg') no-repeat top center; background-size: cover; 
+}
+main section#banner-slick article.slick-slider figure#slick-04 { 
+background: rgb(245, 245, 245); 
+}
+
+
+main section#banner-slick article.slick-slider figure div.contenedor { 
+width: 70%; 
+height: auto; 
+margin: 32vh auto; 
+float: none; 
+position: relative; 
+}
+
+
+main section#banner-slick article.slick-slider figure div.contenedor h3 { 
+    font-size: 3.15em; 
+    line-height: 1em; 
+    color: rgb(255, 255, 255); 
+    font-weight: 300; 
+    text-align: left; 
+    padding: 0 0 15px; 
+    }
+    main section#banner-slick article.slick-slider figure div.contenedor p { 
+    font-size: 1.25em; 
+    line-height: 1em; 
+    color: rgb(255, 255, 255); 
+    font-weight: 300; 
+    text-align: left; 
+    letter-spacing: 0.055em; 
+    padding: 0 0 15px; 
+    }
+    
+    main section#banner-slick article.slick-slider figure div.contenedor a { 
+    width: 125px; 
+    height: auto; 
+    display: block; 
+    margin: 0; 
+    float: none; 
+    background: rgba(0, 0, 0, 0.15); 
+    border: solid 2px #fff; 
+    color: #fff; 
+    border-radius: 5px; 
+    text-align: center; 
+    font-size: 1.05em; 
+    line-height: 1em; 
+    text-decoration: none; 
+    padding: 15px 0; 
+    transition: all 0.3s ease-in; 
+    }
+    main section#banner-slick article.slick-slider figure div.contenedor a:hover { 
+    background: rgba(255,255,255,1); 
+    border: solid 2px #000; 
+    color: #000; 
+    transition: all 0.3s ease-in; 
+    }
+    
+
+main section#banner-slick article.slick-slider figure div.contenedor a:hover { 
+background: rgba(255,255,255,1); 
+border: solid 2px #000; 
+color: #000; 
+transition: all 0.3s ease-in; 
+}
+
+main section#banner-slick article.slick-slider figure iframe { 
+width: 100%; 
+height: 88vh; 
+margin: 0 auto; 
+float: none; 
+position: relative; 
+}
+
+.slick-prev { 
+z-index: 10 !important; 
+left: 30px !important; 
+}
+.slick-next { 
+z-index: 11 !important; 
+right: 30px !important; 
+}
+
+/* Banner Slide Testimonios */
+main section#testimonios-slick {
+width: 100%; 
+height: auto; 
+margin: 0 auto; 
+float: none; 
+position: relative; 
+}
+main section#testimonios-slick article.slick-testimonios { 
+width: 1100px; 
+height: 430px; 
+margin: 0 auto; 
+float: none; 
+position: relative;
+}
+main section#testimonios-slick article.slick-testimonios figure { 
+width: 530px !important; 
+height: 290px; 
+margin: 70px 10px !important; 
+float: left; 
+position: relative;
+background: #d4d4d4;
+}
+main section#testimonios-slick article.slick-testimonios figure img {
+width: 100px;
+height: auto;
+display: block;
+margin: 43px auto 25px auto;
+float: none;
+border-radius: 50%;
+}
+main section#testimonios-slick article.slick-testimonios figure h5 { 
+font-size: 1.3em;
+line-height: 1em;
+text-align: center;
+padding: 0 30px 10px;
+font-weight: 700;
+}
+main section#testimonios-slick article.slick-testimonios figure p {
+font-size: 0.95em;
+line-height: 1.15em;
+text-align: center;
+padding: 0 30px 43px;
+font-weight: 400;   
+}
+
+main section#testimonios-slick .slick-prev { 
+z-index: 10 !important; 
+left: -50px !important;
+}
+main section#testimonios-slick .slick-next {  
+z-index: 11 !important;
+right: -50px !important;
+}
+
+main section#testimonios-slick .slick-prev:before, 
+main section#testimonios-slick .slick-next:before { 
+color: #000 !important;
+}
+
+/* FOOTER */
+footer { 
+width: 100%; 
+height: 200px; 
+margin: 0; 
+float: none; 
+position: relative; 
+background: url('../img/footer_bg.png') no-repeat top center #ffffff; 
+background-size: cover; 
+}
+
+
+
+/* Zona Responsive Web Design - Media Queries */
+
+/* Rango de Tablets: (Máximo 1199px - Mínimo 500px) */
+@media only screen and (max-width: 1249px){
+    /* Banner Slide Testimonios */
+    main section#testimonios-slick .slick-prev,
+    main section#testimonios-slick .slick-next {  
+    display: none !important;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    header { 
+    height: 80px; 
+    box-shadow: 0 3px 5px rgb(0 0 0 / 15%); 
+    }
+
+    /* Banner Video YouTube */
+    main section#banner-video-youtube iframe { 
+    height: 60vh; 
+    }
+
+    /* Banner Video HTML5  */
+    main section#banner-video-html5 video { 
+    height: 60vh; 
+    }
+
+    /* Banner Video HTML5 Loop Muted  */
+    main section#banner-video-html5-loop-muted video { 
+    height: 60vh; 
+    }
+
+    /* Banner Slick Imágenes */
+    main section#banner-slick article.slick-slider { 
+    height: 350px; 
+    }
+    main section#banner-slick article.slick-slider figure { 
+    height: 350px; 
+    }
+    main section#banner-slick article.slick-slider figure div.contenedor { 
+    width: 60%; 
+    margin: 75px auto; 
+    }
+    main section#banner-slick article.slick-slider figure div.contenedor h3 { 
+    font-size: 2.5em; 
+    }
+
+    /* Banner Slide Testimonios */
+    main section#testimonios-slick article.slick-testimonios { 
+    width: 95%; 
+    height: auto; 
+    overflow-y: hidden;
+    }
+    main section#testimonios-slick article.slick-testimonios figure {
+    width: 9% !important;
+    height: auto;
+    }
+}
+
+/* Rango de Smarthphones: (Máximo 499px - Mínimo 400px) */
+@media only screen and (max-width: 499px){
+    
+}
+
+/* Rango de Smarthphones Pequeños: (Máximo 399px - Mínimo 340px) */
+@media only screen and (max-width: 399px){
+    
+}
+
+
+
+
+
